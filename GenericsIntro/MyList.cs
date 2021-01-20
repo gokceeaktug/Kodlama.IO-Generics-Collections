@@ -26,8 +26,13 @@ namespace GenericsIntro
                 
             }
             items[items.Length-1] = item;
-            Console.WriteLine(items.Length);
+            //Console.WriteLine(items.Length);
           
         }
+        public int Length
+        {
+            get { return items.Length; }
+        }
+       
     }
 }
